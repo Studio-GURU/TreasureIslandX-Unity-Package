@@ -1,0 +1,11 @@
+{
+    "name": "iOS",
+    "references": [],
+    "includePlatforms": ["iOS"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": ["UNITY_IOS"]
+}
