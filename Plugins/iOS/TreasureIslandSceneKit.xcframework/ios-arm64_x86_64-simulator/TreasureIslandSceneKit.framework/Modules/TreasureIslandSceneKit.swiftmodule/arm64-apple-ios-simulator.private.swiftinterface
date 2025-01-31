@@ -1,0 +1,107 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TreasureIslandSceneKit
+import Foundation
+import Swift
+import TreasureIslandFoundationKit
+@_exported import TreasureIslandSceneKit
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class LauncherKit {
+  public class Builder {
+    public init()
+    public func withHeader(headerModel: TreasureIslandSceneKit.SceneHeaderModel) -> Self
+    public func withAdvertisingId(advertisingId: Swift.String) -> Self
+    public func build() -> TreasureIslandSceneKit.LauncherKit
+    @objc deinit
+  }
+  public func launch(completionHandler: @escaping (_ success: Swift.Bool, _ message: Swift.String) -> Swift.Void)
+  public func launchWithViewController(_ rootViewController: UIKit.UIViewController, completionHandler: @escaping (_ success: Swift.Bool, _ message: Swift.String) -> Swift.Void)
+  public func launchNotification()
+  public func launchNotificationSetting()
+  public func testLaunchWebContrator(filePath: Swift.String)
+  @objc deinit
+}
+public struct Profile {
+  public enum Gender {
+    case male, female
+    public static func == (a: TreasureIslandSceneKit.Profile.Gender, b: TreasureIslandSceneKit.Profile.Gender) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public class Builder {
+    public init(signKey: Swift.String)
+    public func withGender(gender: TreasureIslandSceneKit.Profile.Gender?) -> TreasureIslandSceneKit.Profile.Builder
+    public func withBirthYear(birthYear: Swift.Int?) -> TreasureIslandSceneKit.Profile.Builder
+    public func register(completionHandler: @escaping (_ success: Swift.Bool, _ message: Swift.String) -> Swift.Void)
+    @objc deinit
+  }
+}
+@_hasMissingDesignatedInitializers public class SceneHeaderModel {
+  public class CustomBuilder {
+    public init()
+    public func withView(_ view: TreasureIslandSceneKit.UIViewSceneHeader) -> Self
+    public func build() -> TreasureIslandSceneKit.SceneHeaderModel
+    @objc deinit
+  }
+  public class PresetBuilder {
+    public init()
+    public func withTitle(_ title: Swift.String) -> Self
+    public func withUseBackButton(_ use: Swift.Bool) -> Self
+    public func withUseCloseButton(_ use: Swift.Bool) -> Self
+    public func build() -> TreasureIslandSceneKit.SceneHeaderModel
+    @objc deinit
+  }
+  @objc deinit
+}
+public struct SceneKit {
+  public static var isInit: Swift.Bool {
+    get
+  }
+  public enum Environment {
+    case develop, test, live
+    public static func == (a: TreasureIslandSceneKit.SceneKit.Environment, b: TreasureIslandSceneKit.SceneKit.Environment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Membership {
+    case basic, channeling
+    public static func == (a: TreasureIslandSceneKit.SceneKit.Membership, b: TreasureIslandSceneKit.SceneKit.Membership) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public class Builder {
+    public init(appId: Swift.String, appSecret: Swift.String, membership: TreasureIslandSceneKit.SceneKit.Membership)
+    public func withAllowLog(allow: Swift.Bool) -> Self
+    public func withEnvironment(environment: TreasureIslandSceneKit.SceneKit.Environment) -> Self
+    public func build() -> TreasureIslandSceneKit.SceneKit
+    @objc deinit
+  }
+  public func initialize()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class UIViewSceneHeader : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var sceneUIViewController: UIKit.UIViewController? {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var sceneWebView: WebKit.WKWebView? {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension TreasureIslandSceneKit.Profile.Gender : Swift.Equatable {}
+extension TreasureIslandSceneKit.Profile.Gender : Swift.Hashable {}
+extension TreasureIslandSceneKit.SceneKit.Environment : Swift.Equatable {}
+extension TreasureIslandSceneKit.SceneKit.Environment : Swift.Hashable {}
+extension TreasureIslandSceneKit.SceneKit.Membership : Swift.Equatable {}
+extension TreasureIslandSceneKit.SceneKit.Membership : Swift.Hashable {}

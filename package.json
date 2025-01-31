@@ -1,0 +1,13 @@
+{
+  "name": "treasureisland.package",
+  "version": "25.1.1",
+  "displayName": "TreasureIsland Package",
+  "description": "GuruCompany TreasureIsland(Comics) Plugin Package.",
+  "author": {
+    "name": "GuruCompany",
+    "email": "engineer@gurucompany.co.kr",
+    "url": "https://www.gurucompany.co.kr"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://gurucompany.gitbook.io/treasureisland/unity/start"
+}
