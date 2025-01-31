@@ -9,3 +9,8 @@ Thumbs.db
 # Publish
 xpublish.sh
 xpublish.sh.meta
+xPublish.sh
+xPublish.sh.meta
+# Package
+xPackage.sh
+xPackage.sh.meta
