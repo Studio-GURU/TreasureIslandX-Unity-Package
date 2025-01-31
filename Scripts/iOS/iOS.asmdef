@@ -1,5 +1,6 @@
 {
     "name": "iOS",
+    "rootNamespace": "TreasureIslandPlugin.iOS",
     "references": [],
     "includePlatforms": ["iOS"],
     "excludePlatforms": [],

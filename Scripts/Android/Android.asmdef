@@ -1,0 +1,12 @@
+{
+    "name": "Android",
+    "rootNamespace": "TreasureIslandPlugin.Android",
+    "references": [],
+    "includePlatforms": ["Android"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": ["UNITY_ANDROID"]
+}
