@@ -1,0 +1,11 @@
+//
+//  TreasureIslandXConfig.xcconfig
+//  
+//
+//  Created by sunwoo on 7/15/24.
+//
+//  CalVer
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+VersionName = 25.3.3
+VersionCode = 24

@@ -1,4 +1,0 @@
-framework module TreasureIslandBridgeKit {
-  header "TreasureIslandBridgeKit-Swift.h"
-  requires objc
-}

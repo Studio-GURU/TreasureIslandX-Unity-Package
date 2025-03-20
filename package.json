@@ -1,8 +1,8 @@
 {
-  "name": "treasureisland.package",
-  "version": "25.1.30",
-  "displayName": "TreasureIsland Package",
-  "description": "GuruCompany TreasureIsland(Comics) Plugin Package.",
+  "name": "treasureislandx.package",
+  "version": "25.3.3",
+  "displayName": "TreasureIslandX Package",
+  "description": "GuruCompany TreasureIslandX(Comics) Plugin Package.",
   "author": {
     "name": "GuruCompany",
     "email": "engineer@gurucompany.co.kr",

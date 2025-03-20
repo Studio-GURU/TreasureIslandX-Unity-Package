@@ -1,6 +1,0 @@
-framework module TreasureIslandFoundationKit {
-  umbrella header "TreasureIslandFoundationKit.h"
-  export *
-
-  module * { export * }
-}

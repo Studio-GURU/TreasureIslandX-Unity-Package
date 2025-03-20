@@ -1,6 +1,0 @@
-framework module TreasureIslandSceneKit {
-  umbrella header "TreasureIslandSceneKit.h"
-  export *
-
-  module * { export * }
-}
