@@ -1910,7 +1910,7 @@
           {
             "kind": "Function",
             "name": "recommendationContentModel",
-            "printedName": "recommendationContentModel(signKey:completionHandler:)",
+            "printedName": "recommendationContentModel(signKey:adid:isAdult:completionHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1922,6 +1922,36 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -1959,8 +1989,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:23TreasureIslandXSceneKit08ContentsD0V26recommendationContentModel7signKey17completionHandlerySS_yAC0G10DataResultOy_Say0ab11XFoundationD0014RecommendationgM0VGGctFZ",
-            "mangledName": "$s23TreasureIslandXSceneKit08ContentsD0V26recommendationContentModel7signKey17completionHandlerySS_yAC0G10DataResultOy_Say0ab11XFoundationD0014RecommendationgM0VGGctFZ",
+            "usr": "s:23TreasureIslandXSceneKit08ContentsD0V26recommendationContentModel7signKey4adid7isAdult17completionHandlerySS_SSSgSbSgyAC0G10DataResultOy_Say0ab11XFoundationD0014RecommendationgP0VGGctFZ",
+            "mangledName": "$s23TreasureIslandXSceneKit08ContentsD0V26recommendationContentModel7signKey4adid7isAdult17completionHandlerySS_SSSgSbSgyAC0G10DataResultOy_Say0ab11XFoundationD0014RecommendationgP0VGGctFZ",
             "moduleName": "TreasureIslandXSceneKit",
             "static": true,
             "declAttributes": [
@@ -1971,7 +2001,7 @@
           {
             "kind": "Function",
             "name": "recommendationContentText",
-            "printedName": "recommendationContentText(signKey:completionHandler:)",
+            "printedName": "recommendationContentText(signKey:adid:isAdult:completionHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1983,6 +2013,36 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -2012,8 +2072,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:23TreasureIslandXSceneKit08ContentsD0V25recommendationContentText7signKey17completionHandlerySS_yAC0G10DataResultOy_SSGctFZ",
-            "mangledName": "$s23TreasureIslandXSceneKit08ContentsD0V25recommendationContentText7signKey17completionHandlerySS_yAC0G10DataResultOy_SSGctFZ",
+            "usr": "s:23TreasureIslandXSceneKit08ContentsD0V25recommendationContentText7signKey4adid7isAdult17completionHandlerySS_SSSgSbSgyAC0G10DataResultOy_SSGctFZ",
+            "mangledName": "$s23TreasureIslandXSceneKit08ContentsD0V25recommendationContentText7signKey4adid7isAdult17completionHandlerySS_SSSgSbSgyAC0G10DataResultOy_SSGctFZ",
             "moduleName": "TreasureIslandXSceneKit",
             "static": true,
             "declAttributes": [

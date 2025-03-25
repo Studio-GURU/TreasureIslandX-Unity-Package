@@ -162,8 +162,8 @@ public protocol PurchaseContract {
 }
 public struct BehaviorDataContent {
   public static func retrieveKey(signKey: Swift.String, completionHandler: @escaping (TreasureIslandXFoundationKit.BehaviorDataResult<TreasureIslandXFoundationKit.AccountKeyData>) -> Swift.Void)
-  public static func recommendationContentModel(signKey: Swift.String, completionHandler: @escaping (TreasureIslandXFoundationKit.BehaviorDataResult<[TreasureIslandXFoundationKit.RecommendationContentData]>) -> Swift.Void)
-  public static func recommendationContentText(signKey: Swift.String, completionHandler: @escaping (TreasureIslandXFoundationKit.BehaviorDataResult<Swift.String>) -> Swift.Void)
+  public static func recommendationContentModel(signKey: Swift.String, adid: Swift.String? = nil, isAdult: Swift.Bool? = nil, completionHandler: @escaping (TreasureIslandXFoundationKit.BehaviorDataResult<[TreasureIslandXFoundationKit.RecommendationContentData]>) -> Swift.Void)
+  public static func recommendationContentText(signKey: Swift.String, adid: Swift.String? = nil, isAdult: Swift.Bool? = nil, completionHandler: @escaping (TreasureIslandXFoundationKit.BehaviorDataResult<Swift.String>) -> Swift.Void)
   public static func recentContentModel(signKey: Swift.String, completionHandler: @escaping (TreasureIslandXFoundationKit.BehaviorDataResult<[TreasureIslandXFoundationKit.RecentContentData]>) -> Swift.Void)
   public static func recentContentText(signKey: Swift.String, completionHandler: @escaping (TreasureIslandXFoundationKit.BehaviorDataResult<Swift.String>) -> Swift.Void)
 }

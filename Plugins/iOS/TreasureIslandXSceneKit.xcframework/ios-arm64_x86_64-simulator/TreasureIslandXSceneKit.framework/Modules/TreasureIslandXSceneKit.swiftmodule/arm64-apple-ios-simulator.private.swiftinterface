@@ -91,8 +91,8 @@ public struct SceneKit {
   public func initialize()
 }
 public struct ContentsKit {
-  public static func recommendationContentModel(signKey: Swift.String, completionHandler: @escaping (TreasureIslandXSceneKit.ContentsKit.ContentDataResult<[TreasureIslandXFoundationKit.RecommendationContentData]>) -> Swift.Void)
-  public static func recommendationContentText(signKey: Swift.String, completionHandler: @escaping (TreasureIslandXSceneKit.ContentsKit.ContentDataResult<Swift.String>) -> Swift.Void)
+  public static func recommendationContentModel(signKey: Swift.String, adid: Swift.String? = nil, isAdult: Swift.Bool? = nil, completionHandler: @escaping (TreasureIslandXSceneKit.ContentsKit.ContentDataResult<[TreasureIslandXFoundationKit.RecommendationContentData]>) -> Swift.Void)
+  public static func recommendationContentText(signKey: Swift.String, adid: Swift.String? = nil, isAdult: Swift.Bool? = nil, completionHandler: @escaping (TreasureIslandXSceneKit.ContentsKit.ContentDataResult<Swift.String>) -> Swift.Void)
   public static func recentContentModel(signKey: Swift.String, completionHandler: @escaping (TreasureIslandXSceneKit.ContentsKit.ContentDataResult<[TreasureIslandXFoundationKit.RecentContentData]>) -> Swift.Void)
   public static func recentContentText(signKey: Swift.String, completionHandler: @escaping (TreasureIslandXSceneKit.ContentsKit.ContentDataResult<Swift.String>) -> Swift.Void)
   public enum ContentDataResult<T> {
